@@ -5,4 +5,29 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="TextView">
+        <item name="android:minWidth">500dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:layout_marginTop">@dimen/dp4</item>
+        <item name="android:layout_marginLeft">@dimen/dp8</item>
+        <item name="android:layout_marginRight">@dimen/dp8</item>
+        <item name="android:background">@drawable/c_rectangle</item>
+        <item name="android:textColor">@drawable/c_states_text_view_text_color</item>
+    </style>
+
+    <style name="Button" parent="TextView">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonBase" parent="Button">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="ButtonStyle" parent="ButtonBase">
+        <item name="android:background">@drawable/c_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>
