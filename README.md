@@ -13,3 +13,4 @@
 <br>
 [Iphone]: https://github.com/oakahn/SevenShake_ios/tree/dev
 [Android]: https://github.com/oakahn/SevenShake_ios/tree/dev
+[LICENSE]: 
