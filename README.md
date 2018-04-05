@@ -4,15 +4,9 @@
 
 
 ## Version on operating systems
-* [Android][] 
-* [Iphone][]
+* [Android](https://github.com/Todsphol/SevenShake-Android)
+* [Iphone](https://github.com/oakahn/SevenShake_ios/tree/dev)
 * WebApplication coming soon
 
 ## Licensing
-*SevenShake-Android* is licensed under the Apache License, Version 2.0. See [LICENSE][] for the full license text.
-
-<br>
-
-    [Iphone]: https://github.com/oakahn/SevenShake_ios/tree/dev
-    [Android]: https://github.com/oakahn/SevenShake_ios/tree/dev
-    [LICENSE]: https://github.com/Todsphol/SevenShake-Android/blob/dev/LICENSE.txt
+*SevenShake-Android* is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/Todsphol/SevenShake-Android/blob/dev/LICENSE.txt) for the full license text.
