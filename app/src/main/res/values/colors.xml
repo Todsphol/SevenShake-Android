@@ -22,4 +22,7 @@
     <color name="colorDeepAmber">#FFB300</color>
     <color name="colorGray">#535353</color>
     <color name="colorDeepGray">#424242</color>
+    <color name="colorGreenSeven">#008061</color>
+    <color name="colorOrangeSeven">#F5821F</color>
+    <color name="colorRedSeven">#ED1B2D</color>
 </resources>

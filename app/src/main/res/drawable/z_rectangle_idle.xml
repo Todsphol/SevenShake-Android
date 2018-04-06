@@ -10,7 +10,7 @@
             <solid android:color="@color/colorWhite"/>
 
             <stroke android:width="4dp"
-                android:color="@color/colorAccent"/>
+                android:color="@color/colorGreenSeven"/>
 
             <padding
                 android:left="14dp"
