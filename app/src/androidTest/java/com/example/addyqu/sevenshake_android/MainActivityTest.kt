@@ -29,4 +29,10 @@ class MainActivityTest {
         onView(withId(R.id.btn_test))
                 .perform(ViewActions.click())
     }
+
+    @Test
+    fun test_Text_in_TextView() {
+        onView(withId(R.id.tv_hello))
+                .check(matches(withText("สวัสดีคับ")))
+    }
 }
