@@ -1,7 +1,8 @@
-package com.example.addyqu.sevenshake_android
+package com.example.addyqu.sevenshake_android.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.addyqu.sevenshake_android.R
 
 class MainActivity : AppCompatActivity() {
 

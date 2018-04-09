@@ -1,4 +1,4 @@
-package com.example.addyqu.sevenshake_android;
+package com.example.addyqu.sevenshake_android.custom;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

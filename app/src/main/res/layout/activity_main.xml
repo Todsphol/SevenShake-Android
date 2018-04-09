@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <Button
         android:id="@+id/btn_test"
@@ -19,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Button"/>
 
-    <com.example.addyqu.sevenshake_android.CustomFontTextView
+    <com.example.addyqu.sevenshake_android.custom.CustomFontTextView
         android:id="@+id/tv_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
