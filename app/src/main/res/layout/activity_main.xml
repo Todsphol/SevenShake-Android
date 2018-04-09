@@ -19,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Button"/>
 
-    <TextView
+    <com.example.addyqu.sevenshake_android.CustomFontTextView
         android:id="@+id/tv_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
