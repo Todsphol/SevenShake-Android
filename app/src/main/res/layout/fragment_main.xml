@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.MainFragment">
+
+    <Button
+        android:id="@+id/btn_test"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Button"/>
+
+    <com.example.addyqu.sevenshake_android.custom.CustomFontTextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="สวัสดีคับ"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditText"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/tv_hello"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_test"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_test"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginBottom="@dimen/dp8"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/iv_test"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_test"
+        app:layout_constraintLeft_toLeftOf="@+id/iv_test"
+        app:layout_constraintRight_toRightOf="@+id/iv_test"
+        android:visibility="invisible"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
