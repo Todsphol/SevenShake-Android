@@ -1,6 +1,6 @@
 # SevenShake-Android
 **SevenShake-Android** is Appilication for random Food&Snack on 7-11 Market
-
+# TEST
 
 ## Version on operating systems
 * [Android](https://github.com/Todsphol/SevenShake-Android)
